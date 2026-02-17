@@ -1,0 +1,533 @@
+.whychoose {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+
+.whychoose-container {
+  display: flex;
+  max-width: 1200px;
+  gap: 2rem;
+}
+
+.whychoose-left {
+  flex: 1;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #007bff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.subheading {
+  font-size: 0.9rem;
+  color: #007bff;
+  margin-top: 0.5rem;
+}
+
+.main-heading {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.whychoose-item {
+  margin-bottom: 1.5rem;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #007bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.item-title {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.item-desc {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.btn.primary {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn.secondary {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.whychoose-right {
+  flex: 1;
+  position: relative;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.doctor-card {
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.dot-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.whychoose-item {
+  margin-bottom: 1.5rem;
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #007bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.btn.rounded {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 50px; /* Rounded button */
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+.whychoose {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+
+.whychoose-container {
+  display: flex;
+  max-width: 1200px;
+  gap: 2rem;
+}
+
+.whychoose-left {
+  flex: 1;
+}
+
+.dot-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #007bff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.subheading {
+  font-size: 0.9rem;
+  color: #007bff;
+}
+
+.main-heading {
+  font-size: 2rem;
+  margin: 1rem 0 2rem;
+}
+
+.whychoose-item {
+  margin-bottom: 1.5rem;
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #007bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.item-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.item-desc {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.btn.rounded {
+  margin-top: 2rem;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 50px; /* Rounded button */
+  background: #007bff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn.rounded:hover {
+  background: #0056b3;
+}
+
+.whychoose-right {
+  flex: 1;
+  position: relative;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.doctor-card {
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.doctor-card h5 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.doctor-card .choose {
+  font-size: 0.85rem;
+  color: #007bff;
+  margin: 0.3rem 0 0.8rem;
+}
+
+.doctor-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.doctor-card li {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+.dot-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem; /* tighter spacing */
+  margin-bottom: 0.8rem; /* space below dot+heading */
+}
+
+.main-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem; /* more breathing room */
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem; /* circle + heading spacing */
+}
+
+.item-desc {
+  margin-top: 0.6rem; /* space below heading */
+  margin-bottom: 1.5rem; /* consistent spacing before next item */
+}
+
+.btn.rounded {
+  margin-top: 2.5rem; /* more space above button */
+  padding: 1rem 2rem; /* larger button */
+  border-radius: 50px;
+}
+
+.doctor-card {
+  position: absolute;
+  bottom: 20px; /* lifted slightly above bottom */
+  left: 20px;
+  background: #fff;
+  padding: 1.2rem 1.5rem; /* more inner spacing */
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12); /* stronger shadow */
+}
+.doctor-card {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  width: 280px; /* fixed width for consistency */
+}
+
+.doctor-card h5 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.doctor-card .choose {
+  font-size: 0.85rem;
+  color: #007bff;
+  margin: 0.3rem 0 1rem;
+}
+
+.doctor-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.doctor-card li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.doctor-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.doctor-card .btn.rounded {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 50px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.whychoose {
+  padding: 4rem 1rem;
+}
+
+.whychoose-container {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left side */
+.whychoose-left {
+  flex: 1;
+}
+
+.dot-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #2563eb; /* blue */
+  border-radius: 50%;
+}
+
+.subheading {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.main-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.whychoose-item {
+  margin-bottom: 1.5rem;
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.circle {
+  width: 32px;
+  height: 32px;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.item-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.item-desc {
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+.btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn.rounded {
+  border-radius: 9999px;
+}
+
+/* Right side */
+.whychoose-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.doctor-card {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.doctor-card h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.doctor-card ul {
+  margin-top: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.doctor-card li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.doctor-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ✅ Responsive adjustments */
+@media (max-width: 992px) {
+  .whychoose-container {
+    flex-direction: column;
+  }
+
+  .whychoose-left, .whychoose-right {
+    width: 100%;
+  }
+
+  .main-heading {
+    font-size: 1.5rem;
+  }
+
+  .item-title {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .circle {
+    width: 24px;
+    height: 24px;
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .doctor-card {
+    padding: 0.75rem;
+  }
+
+  .doctor-img {
+    width: 32px;
+    height: 32px;
+  }
+}
