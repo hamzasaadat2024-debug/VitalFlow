@@ -7,9 +7,9 @@ import profile3 from "../../assets/khani.jpg";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-white py-12">
+    <section className="w-full mt-24 py-16 bg-white">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        
+      
        
         <div className="space-y-6">
           <p className="text-yellow-500 font-bold">{HeroData.reviews}</p>
@@ -63,6 +63,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 
