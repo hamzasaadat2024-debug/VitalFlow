@@ -1,6 +1,6 @@
 // src/Components/Services/Services.jsx
 import React from "react";
-import servicesData from "./servicesData";
+import servicesData from "./servicingData";
 
 const Services = () => {
   return (

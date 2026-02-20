@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Consultation from "./Components/Consultation/Consultation";
 import WhyChoose from "./Components/WhyChoose/WhyChoose";
-import Services from "./Components/Services/Services";
+import Servicing from "./Components/Servicing/Servicing";
 import Vision from "./Components/Vision/Vision";
 import Features from "./Components/Features/Features";
 import Works from "./Components/Works/HowItWorks";
@@ -17,7 +17,7 @@ import Footer from "./Components/Footer/Footer";
 
 // Pages
 import AboutPage from "./pages/About";
-import ServicesPage from "./pages/Services";
+import ServicesPage from "./pages/Service";
 import DoctorsPage from "./pages/Doctors";
 import BlogPage from "./pages/Blog";
 import { FaQ } from "react-icons/fa6";
@@ -35,7 +35,7 @@ function App() {
               <Hero />
               <Consultation />
               <WhyChoose />
-              <Services />
+              <Servicing />
               <Vision />
               <Features />
               <Works />

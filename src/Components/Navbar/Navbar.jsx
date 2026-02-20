@@ -12,7 +12,7 @@ const Navbar = () => {
         
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
-          <div className="bg-blue-500 p-2 rounded-md">
+          <div className="bg-gray-500 p-2 rounded-md">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 text-white"
@@ -37,7 +37,7 @@ const Navbar = () => {
             <a
               key={item.id}
               href={item.href}
-              className="text-gray-700 hover:text-blue-500"
+              className="text-black-700 hover:text-gray-500"
             >
               {item.label}
             </a>
