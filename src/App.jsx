@@ -14,6 +14,7 @@ import Blog from "./Components/Blog/Blog";
 import Faq from "./Components/Faq/FAQ";
 import ContactForm from "./Components/ContactForm/ContactForm";
 import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/Contact/Contact";
 
 // Pages
 import AboutPage from "./pages/About";
@@ -26,8 +27,9 @@ function App() {
   return (
     <Router>
       <Navbar />
+      
       <Routes>
-        {/* Home route with all sections */}
+        
         <Route
           path="/"
           element={
@@ -43,16 +45,17 @@ function App() {
               <Blog/>
               <Faq/>
               <ContactForm/>
-              <Footer/>
+              
             </>
           }
         />
-        {/* Separate pages */}
+      
         <Route path="/about" element={<AboutPage />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/doctors" element={<DoctorsPage />} />
         <Route path="/blog" element={<BlogPage />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }

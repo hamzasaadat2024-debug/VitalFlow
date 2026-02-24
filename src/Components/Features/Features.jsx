@@ -7,7 +7,7 @@ const Features = () => {
     <section className="py-16 ">
       <div className="max-w-6xl mx-auto px-6 text-center">
         
-        {/* Dot + Small Header */}
+        
         <div className="flex items-center justify-center gap-2 mb-2">
           <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
           <h6 className="text-black text-sm font-semibold">Features</h6>
