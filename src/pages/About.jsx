@@ -1,7 +1,7 @@
 // src/pages/About.jsx
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
-import Footer from "../Components/Footer/Footer";
+import Team from "../Components/Team/Team";
 import ContactForm from "../Components/ContactForm/ContactForm";
 import profile1 from "./../assets/islam.jpg"
 import profile2 from "./../assets/khani.jpg";
@@ -253,98 +253,11 @@ const About = () => {
   </div>
 </section>
 
-
-<section className="py-16 bg-white">
-  <div className="max-w-7xl mx-auto px-6 text-center">
-    <div className="flex items-center justify-center gap-2 mb-2">
-      <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
-      <h5 className="text-sm font-semibold">Our Team</h5>
-    </div>
-
-    <h2 className="text-3xl md:text-4xl font-bold mb-12 leading-snug">
-      Meet our dedicated and <br /> experienced team of experts
-    </h2>
-
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">      
-      {/* Card 1 */}
-      <div className="group text-left cursor-pointer">
-  <img src={profile1} alt="Jonathan Reed" className="w-full h-64 object-cover rounded-lg mb-4" />
-  <div className="flex items-center justify-between mb-2">
-    <h4 className="font-semibold text-lg">Jonathan Reed</h4>
-    <div className="border border-gray-300 rounded-md p-2 transition-transform duration-300 group-hover:translate-x-2">
-      <FaArrowRight className="text-blue-600 text-sm" />
-    </div>
-  </div>
-  <p className="text-gray-600 text-sm">Gastroenterologist</p>
-</div>
-
-      {/* Card 2 */}
-      <div className="group text-left cursor-pointer">
-  <img src={profile1} alt="Jonathan Reed" className="w-full h-64 object-cover rounded-lg mb-4" />
-  <div className="flex items-center justify-between mb-2">
-    <h4 className="font-semibold text-lg">Jonathan Reed</h4>
-    <div className="border border-gray-300 rounded-md p-2 transition-transform duration-300 group-hover:translate-x-2">
-      <FaArrowRight className="text-blue-600 text-sm" />
-    </div>
-  </div>
-  <p className="text-gray-600 text-sm">Gastroenterologist</p>
-</div>
-
-      {/* Card 3 */}
-      <div className="group text-left cursor-pointer">
-  <img src={profile1} alt="Jonathan Reed" className="w-full h-64 object-cover rounded-lg mb-4" />
-  <div className="flex items-center justify-between mb-2">
-    <h4 className="font-semibold text-lg">Jonathan Reed</h4>
-    <div className="border border-gray-300 rounded-md p-2 transition-transform duration-300 group-hover:translate-x-2">
-      <FaArrowRight className="text-blue-600 text-sm" />
-    </div>
-  </div>
-  <p className="text-gray-600 text-sm">Gastroenterologist</p>
-</div>
-
-      {/* Card 4 */}
-      <div className="group text-left cursor-pointer">
-  <img src={profile1} alt="Jonathan Reed" className="w-full h-64 object-cover rounded-lg mb-4" />
-  <div className="flex items-center justify-between mb-2">
-    <h4 className="font-semibold text-lg">Jonathan Reed</h4>
-    <div className="border border-gray-300 rounded-md p-2 transition-transform duration-300 group-hover:translate-x-2">
-      <FaArrowRight className="text-blue-600 text-sm" />
-    </div>
-  </div>
-  <p className="text-gray-600 text-sm">Gastroenterologist</p>
-</div>
-
-      {/* Card 5 */}
-      <div className="group text-left cursor-pointer">
-  <img src={profile1} alt="Jonathan Reed" className="w-full h-64 object-cover rounded-lg mb-4" />
-  <div className="flex items-center justify-between mb-2">
-    <h4 className="font-semibold text-lg">Jonathan Reed</h4>
-    <div className="border border-gray-300 rounded-md p-2 transition-transform duration-300 group-hover:translate-x-2">
-      <FaArrowRight className="text-blue-600 text-sm" />
-    </div>
-  </div>
-  <p className="text-gray-600 text-sm">Gastroenterologist</p>
-</div>
-
-      {/* Card 6 */}
-      <div className="group text-left cursor-pointer">
-  <img src={profile1} alt="Jonathan Reed" className="w-full h-64 object-cover rounded-lg mb-4" />
-  <div className="flex items-center justify-between mb-2">
-    <h4 className="font-semibold text-lg">Jonathan Reed</h4>
-    <div className="border border-gray-300 rounded-md p-2 transition-transform duration-300 group-hover:translate-x-2">
-      <FaArrowRight className="text-blue-600 text-sm" />
-    </div>
-  </div>
-  <p className="text-gray-600 text-sm">Gastroenterologist</p>
-</div>
-    </div>
-  </div>
-</section>
-
+<    Team/>
 
 
 < ContactForm/>
-      <Footer />
+     
     </>
   );
 };

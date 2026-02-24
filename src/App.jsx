@@ -10,7 +10,7 @@ import Vision from "./Components/Vision/Vision";
 import Features from "./Components/Features/Features";
 import Works from "./Components/Works/HowItWorks";
 import Testi from "./Components/Testi/Testimonials";
-import Blog from "./Components/Blog/Blog";
+import Blog from "./Components/Blogs/Blogs";
 import Faq from "./Components/Faq/FAQ";
 import ContactForm from "./Components/ContactForm/ContactForm";
 import Footer from "./Components/Footer/Footer";
